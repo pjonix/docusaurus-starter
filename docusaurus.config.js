@@ -63,7 +63,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/doc', label: 'Docs', position: 'left'},
+          {
+            type: 'doc',
+            position: 'left',
+            label: 'Tutorial',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/pjonix/docusaurus-starter/',
