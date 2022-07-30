@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-      小恐龙很可爱吧，它的脑子里在想什么？
+      小恐龙很可爱吧，所以海鸥的脑子里在想什么？
       </>
     ),
   }, 

@@ -78,40 +78,40 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Community',
+            title: 'Useful Links',
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'AoPS Wiki',
+                href: 'https://artofproblemsolving.com/wiki/index.php?title=Main_Page',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Netlify',
+                href: 'https://app.netlify.com',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Categories',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Docs',
+                to: '/docs/intro',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hio.`,
       },
       prism: {
         theme: lightCodeTheme,
