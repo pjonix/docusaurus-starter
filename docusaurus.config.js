@@ -128,7 +128,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          path: 'docs',
+          path: '/docs',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
