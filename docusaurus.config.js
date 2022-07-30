@@ -122,6 +122,7 @@ const config = {
 
 module.exports = config;
 
+import * from "https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js";
 MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
@@ -131,4 +132,4 @@ MathJax = {
   }
 };
 
-<script src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+
