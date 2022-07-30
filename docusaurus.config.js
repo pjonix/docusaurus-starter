@@ -40,6 +40,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/pjonix/docusaurus-starter/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -122,20 +124,7 @@ const config = {
     }),
 };
 
-module.exports = {
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          path: '/docs',
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
-        },
-      },
-    ],
-  ],
-  stylesheets: [
+stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
       type: 'text/css',
@@ -144,6 +133,7 @@ module.exports = {
       crossorigin: 'anonymous',
     },
   ],
-};
+
+module.exports = config;
 
 
