@@ -10,8 +10,8 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Hio海鸥',
   tagline: '人活着就是为了整点薯条。',
-  url: 'https://www.hio.bio/',
-  baseUrl: 'https://www.hio.bio/',
+  url: 'https://www.hio.bio',
+  baseUrl: 'https://www.hio.bio',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
