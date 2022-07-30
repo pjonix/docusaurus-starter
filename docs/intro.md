@@ -7,17 +7,3 @@ sidebar_position: 1
 你好，这里是Hio海鸥。
 
 欢迎你来，你也可以在这里随处走走。
-
-
-
-
-
-$\sum^n_1 i^2$
-
-$\sum^n_1 i^2$
-
-$\sum^n_1 i^2$
-
-$\sum^n_1 i^2$
-
-$\sum^n_1 i^2$

@@ -50,6 +50,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/pjonix/docusaurus-starter/tree/main/packages/create-docusaurus/templates/shared/',
+          path: 'blog',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
