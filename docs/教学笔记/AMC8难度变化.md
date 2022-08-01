@@ -8,7 +8,7 @@
 
 **难度变化大致有以下 5 点：**
 
-:::tip 1、相同知识点，计算量变大
+## :::tip 1、相同知识点，计算量变大
 
 :::
 
@@ -34,7 +34,7 @@
 
 而到了 2020 年 AMC 8 的第 25 题压轴题也是一道计数题。解题的技巧已经上升到了在更高年级竞赛中标配的“隔板法”。即便是在初中和小学阶段课内很少接触的计数题，也渐渐拓展了深度和难度。
 
-![img](https://paanggi-1256981020.cos.ap-shenzhen-fsi.myqcloud.com/img/v2-0d9087ddddd84aae91aa2ae167f0fce7_1440w.jpg):::tip 3、以前 AMC10的考题，开始出现在AMC 8 了
+![img](https://paanggi-1256981020.cos.ap-shenzhen-fsi.myqcloud.com/img/v2-0d9087ddddd84aae91aa2ae167f0fce7_1440w.jpg):::tip 3、以前 AMC10的考题，开始出现在AMC8了
 
 :::
 
