@@ -34,18 +34,45 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
+        Reflection: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
           path: 'Reflection',
           remarkPlugins: [math],
           rehypePlugins: [katex],},
-        blog: {
+        Ramblings: {
           showReadingTime: true,
           editUrl:
             'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
           path: 'Ramblings',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+        },
+        Basics: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          showReadingTime: true,
+          editUrl:
+            'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
+          path: 'Basics',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+        },
+        Calculus: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          showReadingTime: true,
+          editUrl:
+            'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
+          path: 'Calculus',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+        },
+        Algebra: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          showReadingTime: true,
+          editUrl:
+            'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
+          path: 'Algebra',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -75,11 +102,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/Basics', label: 'Basics', position: 'left'},
-          {to: '/Calculus', label: 'Calculus', position: 'left'},
-          {to: '/Algebra', label: 'Algebra', position: 'left'},
-          {type: 'doc',docId:'intro',label: 'Reflection',position: 'left'},
-          {to: '/Ramblings', label: 'Ramblings', position: 'left'},
+          {type: 'Basics', label: 'Basics', position: 'left'},
+          {type: 'Calculus', label: 'Calculus', position: 'left'},
+          {type: 'Algebra', label: 'Algebra', position: 'left'},
+          {type: 'Reflection',docId:'intro',label: 'Reflection',position: 'left'},
+          {type: 'Ramblings', label: 'Ramblings', position: 'left'},
           {
             href: 'https://github.com/pjonix/hio-voice/',
             label: 'GitHub',
