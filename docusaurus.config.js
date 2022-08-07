@@ -75,11 +75,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {type: 'doc',to: '/Basics', label: 'Algebra', position: 'left'},
-          {type: 'doc',to: '/Calculus', label: 'Basics', position: 'left'},
-          {type: 'doc',to: '/Algebra', label: 'Calculus', position: 'left'},
+          {to: '/Basics', label: 'Algebra', position: 'left'},
+          {to: '/Calculus', label: 'Basics', position: 'left'},
+          {to: '/Algebra', label: 'Calculus', position: 'left'},
           {type: 'doc',docId:'intro',to: '/Reflection',position: 'left',label: 'Reflection'},
-          {type: 'doc',to: '/Ramlings', label: 'Ramlings', position: 'left'},
+          {to: '/Ramlings', label: 'Ramlings', position: 'left'},
           {
             href: 'https://github.com/pjonix/hio-voice/',
             label: 'GitHub',
