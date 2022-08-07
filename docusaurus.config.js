@@ -111,10 +111,12 @@ const config = {
             title: 'Categories',
             items: [
               {
-                label: 'Blog',
+                label: 'Ramblings',
+                to:'/Ramblings',
               },
               {
-                label: 'Docs',
+                label: 'Reflection',
+                to:'/Reflection',
               },
             ],
           },
