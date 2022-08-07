@@ -39,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pjonix/docusaurus-starter/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
           path: 'docs',
           remarkPlugins: [math],
           rehypePlugins: [katex],
@@ -49,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pjonix/docusaurus-starter/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
           path: 'blog',
           remarkPlugins: [math],
           rehypePlugins: [katex],
@@ -89,7 +89,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/pjonix/docusaurus-starter/',
+            href: 'https://github.com/pjonix/hio-voice/',
             label: 'GitHub',
             position: 'right',
           },
