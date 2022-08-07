@@ -79,7 +79,7 @@ const config = {
           {to: '/Calculus', label: 'Basics', position: 'left'},
           {to: '/Algebra', label: 'Calculus', position: 'left'},
           {type: 'doc',docId:'intro',to: '/Reflection',position: 'left',label: 'Reflection'},
-          {to: '/Ramlings', label: 'Ramlings', position: 'left'},
+          {to: '/Ramblings', label: 'Ramblings', position: 'left'},
           {
             href: 'https://github.com/pjonix/hio-voice/',
             label: 'GitHub',
