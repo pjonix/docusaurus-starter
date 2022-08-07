@@ -112,11 +112,11 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/Ramblings',
               },
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/Reflection/intro',
               },
             ],
           },
