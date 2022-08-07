@@ -38,14 +38,14 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
-          path: 'docs',
+          path: 'Reflection',
           remarkPlugins: [math],
           rehypePlugins: [katex],},
         blog: {
           showReadingTime: true,
           editUrl:
             'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
-          path: 'blog',
+          path: 'Ramblings',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
