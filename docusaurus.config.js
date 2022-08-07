@@ -36,18 +36,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
           path: 'docs',
           remarkPlugins: [math],
-          rehypePlugins: [katex],
-        },
+          rehypePlugins: [katex],},
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/pjonix/hio-voice/tree/main/packages/create-docusaurus/templates/shared/',
           path: 'blog',
@@ -55,8 +50,7 @@ const config = {
           rehypePlugins: [katex],
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+          customCss: require.resolve('./src/css/custom.css'),},
       }),
     ],
   ],
@@ -81,13 +75,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {type: 'doc',to: '/Basics', label: 'Algebra', position: 'left'},
+          {type: 'doc',to: '/Calculus', label: 'Basics', position: 'left'},
+          {type: 'doc',to: '/Algebra', label: 'Calculus', position: 'left'},
+          {type: 'doc',to: '/Reflection',position: 'left',label: 'Reflection'},
+          {type: 'doc',to: '/Ramlings', label: 'Ramlings', position: 'left'},
           {
             href: 'https://github.com/pjonix/hio-voice/',
             label: 'GitHub',
